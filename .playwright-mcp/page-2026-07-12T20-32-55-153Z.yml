@@ -1,0 +1,415 @@
+- generic [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e16]
+      - generic [ref=e21]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /accounts/login/?next=%2Fpierretheque%2Fp%2FDIWdeAxI3s9%2F&source=desktop_nav
+          - text: Войти
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /accounts/emailsignup/
+          - text: Зарегистрироваться
+    - main [ref=e26]:
+      - dialog [ref=e31]:
+        - generic [ref=e32]:
+          - button [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - link [ref=e43] [cursor=pointer]:
+                - img [ref=e44]
+              - generic [ref=e46]:
+                - generic [ref=e47]: Не пропускайте публикации pierretheque
+                - generic [ref=e49]: Зарегистрируйтесь в Instagram, чтобы быть в курсе событий.
+            - generic [ref=e50]:
+              - link [ref=e53] [cursor=pointer]:
+                - /url: /accounts/emailsignup/
+                - text: Зарегистрироваться
+              - link [ref=e56] [cursor=pointer]:
+                - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+                - text: Войти
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - generic [ref=e69]:
+            - list [ref=e71]:
+              - listitem [ref=e72]
+              - listitem [ref=e73]:
+                - img [ref=e79]
+              - listitem [ref=e81]:
+                - img [ref=e87]
+            - button [ref=e89] [cursor=pointer]
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - link [ref=e96] [cursor=pointer]:
+                - img [ref=e97]
+              - generic [ref=e100]:
+                - link [ref=e103] [cursor=pointer]:
+                  - /url: /pierretheque/
+                  - generic [ref=e106]: pierretheque
+                - generic [ref=e107]:
+                  - generic [ref=e109]: •
+                  - button [ref=e110] [cursor=pointer]: Подписаться
+              - button [ref=e113] [cursor=pointer]:
+                - img [ref=e116]
+            - separator [ref=e120]
+            - generic [ref=e122]:
+              - generic [ref=e124]:
+                - link [ref=e126] [cursor=pointer]:
+                  - /url: /pierretheque/
+                  - img [ref=e127]
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - link [ref=e133] [cursor=pointer]:
+                      - /url: /pierretheque/
+                      - generic [ref=e136]: pierretheque
+                    - time [ref=e138]: 65 нед.
+                  - generic [ref=e139]: ifsixwasnine mudmax gypsy - size 28 nfs
+              - button [ref=e141] [cursor=pointer]:
+                - img [ref=e143]
+              - generic [ref=e145]:
+                - generic [ref=e148]:
+                  - link [ref=e150] [cursor=pointer]:
+                    - /url: /pierretheque/
+                    - img [ref=e151]
+                  - generic [ref=e153]:
+                    - generic [ref=e155]:
+                      - generic [ref=e156]:
+                        - link [ref=e158] [cursor=pointer]:
+                          - /url: /pierretheque/
+                          - generic [ref=e161]: pierretheque
+                        - link [ref=e163] [cursor=pointer]:
+                          - /url: /p/DIWdeAxI3s9/c/18121178815535495/
+                          - time [ref=e164]: 14 нед.
+                      - generic [ref=e166]: "tags:"
+                    - generic [ref=e167]:
+                      - button [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169]: Нравится
+                      - button [ref=e170] [cursor=pointer]:
+                        - generic [ref=e172]: Ответить
+                - generic [ref=e175]:
+                  - link [ref=e177] [cursor=pointer]:
+                    - /url: /luian1v9/
+                    - img [ref=e178]
+                  - generic [ref=e180]:
+                    - generic [ref=e182]:
+                      - generic [ref=e183]:
+                        - link [ref=e185] [cursor=pointer]:
+                          - /url: /luian1v9/
+                          - generic [ref=e188]: luian1v9
+                        - link [ref=e190] [cursor=pointer]:
+                          - /url: /p/DIWdeAxI3s9/c/18411215617097958/
+                          - time [ref=e191]: 53 нед.
+                      - generic [ref=e193]: dm
+                    - generic [ref=e194]:
+                      - button [ref=e195] [cursor=pointer]:
+                        - generic [ref=e196]: Нравится
+                      - button [ref=e197] [cursor=pointer]:
+                        - generic [ref=e199]: Ответить
+                - generic [ref=e202]:
+                  - link [ref=e204] [cursor=pointer]:
+                    - /url: /satanized._.d/
+                    - img [ref=e205]
+                  - generic [ref=e207]:
+                    - generic [ref=e209]:
+                      - generic [ref=e210]:
+                        - link [ref=e212] [cursor=pointer]:
+                          - /url: /satanized._.d/
+                          - generic [ref=e215]: satanized._.d
+                        - link [ref=e217] [cursor=pointer]:
+                          - /url: /p/DIWdeAxI3s9/c/18153460612363303/
+                          - time [ref=e218]: 65 нед.
+                      - generic [ref=e220]: My baby
+                    - generic [ref=e221]:
+                      - button [ref=e222] [cursor=pointer]:
+                        - generic [ref=e223]: Нравится
+                      - button [ref=e224] [cursor=pointer]:
+                        - generic [ref=e226]: Ответить
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - button [ref=e232] [cursor=pointer]:
+                    - img [ref=e235]
+                  - button [ref=e237] [cursor=pointer]: "75"
+                  - button [ref=e239] [cursor=pointer]:
+                    - img [ref=e241]
+                  - button [ref=e243] [cursor=pointer]: "4"
+                  - button [ref=e244] [cursor=pointer]:
+                    - img [ref=e245]
+                - button [ref=e249] [cursor=pointer]:
+                  - img [ref=e251]
+              - link [ref=e255] [cursor=pointer]:
+                - /url: /pierretheque/p/DIWdeAxI3s9/
+                - time [ref=e257]: 12 апрель 2025 г.
+            - generic [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /accounts/login/?next=%2Fpierretheque%2Fp%2FDIWdeAxI3s9%2F&source=post_comment_input
+                - text: Войдите
+              - text: ", чтобы поставить «Нравится» или прокомментировать."
+        - separator [ref=e265]
+        - generic [ref=e266]:
+          - generic [ref=e268]:
+            - text: Ещё публикации от
+            - link [ref=e269] [cursor=pointer]:
+              - /url: /pierretheque/
+              - text: pierretheque
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /pierretheque/reel/DXZNvM3CAKq/
+                - img [ref=e278]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e281] [cursor=pointer]:
+                - /url: /pierretheque/reel/DXPtj5giLiT/
+                - img [ref=e284]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /pierretheque/reel/DWywCvXiOXV/
+                - img [ref=e290]
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e292]:
+              - link [ref=e294] [cursor=pointer]:
+                - /url: /pierretheque/p/DZuceNyCKR2/
+                - img [ref=e297]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e300] [cursor=pointer]:
+                - /url: /pierretheque/p/DZaFka8iBnq/
+                - img [ref=e303]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e306] [cursor=pointer]:
+                - /url: /pierretheque/p/DZaDvOgCO1Q/
+                - img [ref=e309]
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e311]:
+              - link [ref=e313] [cursor=pointer]:
+                - /url: /pierretheque/p/DZDGt-tCPMn/
+                - img [ref=e316]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e319] [cursor=pointer]:
+                - /url: /pierretheque/p/DZDFIS3iOY8/
+                - img [ref=e322]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e325] [cursor=pointer]:
+                - /url: /pierretheque/p/DZDDY-qiM3z/
+                - img [ref=e328]
+                - generic:
+                  - generic:
+                    - img
+          - generic [ref=e330]:
+            - link [ref=e332] [cursor=pointer]:
+              - /url: /pierretheque/
+              - generic [ref=e333]: Ещё публикации
+            - separator [ref=e334]
+    - contentinfo [ref=e335]:
+      - generic [ref=e336]:
+        - generic [ref=e338]:
+          - link [ref=e340] [cursor=pointer]:
+            - /url: https://about.meta.com/
+            - generic [ref=e341]: Meta
+          - link [ref=e343] [cursor=pointer]:
+            - /url: https://about.instagram.com/
+            - generic [ref=e344]: Информация
+          - link [ref=e346] [cursor=pointer]:
+            - /url: https://about.instagram.com/blog/
+            - generic [ref=e347]: Блог
+          - link [ref=e349] [cursor=pointer]:
+            - /url: https://about.instagram.com/about-us/careers
+            - generic [ref=e350]: Вакансии
+          - link [ref=e352] [cursor=pointer]:
+            - /url: https://help.instagram.com/
+            - generic [ref=e353]: Помощь
+          - link [ref=e355] [cursor=pointer]:
+            - /url: https://developers.facebook.com/docs/instagram
+            - generic [ref=e356]: API
+          - link [ref=e358] [cursor=pointer]:
+            - /url: /legal/privacy/
+            - generic [ref=e359]: Конфиденциальность
+          - link [ref=e361] [cursor=pointer]:
+            - /url: /legal/terms/
+            - generic [ref=e362]: Условия и правовая информация
+          - link [ref=e364] [cursor=pointer]:
+            - /url: /explore/locations/
+            - generic [ref=e365]: Места
+          - link [ref=e367] [cursor=pointer]:
+            - /url: /popular/
+            - generic [ref=e368]: Популярное
+          - link [ref=e370] [cursor=pointer]:
+            - /url: /web/lite/
+            - generic [ref=e371]: Instagram Lite
+          - link [ref=e373] [cursor=pointer]:
+            - /url: https://www.meta.ai/?utm_source=foa_web_footer
+            - generic [ref=e374]: Meta AI
+          - link [ref=e376] [cursor=pointer]:
+            - /url: https://www.threads.com/
+            - generic [ref=e377]: Threads
+          - link [ref=e379] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/instagram/261704639352628
+            - generic [ref=e380]: Загрузка контактов и лица, не являющиеся пользователями
+          - link [ref=e382] [cursor=pointer]:
+            - /url: /accounts/meta_verified/?entrypoint=web_footer
+            - generic [ref=e383]: Meta Verified
+          - link [ref=e385] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/cancelcontracts?source=instagram.com
+            - generic [ref=e386]: Договоры можно отменить здесь
+        - generic [ref=e387]:
+          - generic [ref=e388] [cursor=pointer]:
+            - generic [ref=e389]:
+              - generic [ref=e390]: Русский
+              - img [ref=e393]
+            - combobox [ref=e395]
+          - generic [ref=e397]: © 2026 Instagram from Meta
+  - dialog [ref=e404]:
+    - generic [ref=e407]:
+      - generic [ref=e408]:
+        - generic [ref=e410] [cursor=pointer]:
+          - img "Язык" [ref=e411]
+          - combobox "Изменить язык отображения" [ref=e415]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский" [selected]
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e416]:
+          - generic [ref=e417]:
+            - heading "Разрешить использование файлов cookie от Instagram в этом браузере?" [active] [level=2] [ref=e419]
+            - generic [ref=e420]:
+              - generic [ref=e423]:
+                - text: Мы используем файлы cookie и подобные технологии, чтобы показывать и улучшать контент в
+                - link "Продуктах Meta" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.facebook.com/help/1561485474074139
+                - text: ", обеспечивать безопасный пользовательский опыт с помощью информации, полученной из файлов cookie в Instagram и за его пределами, а также чтобы предоставлять и улучшать Продукты Meta для зарегистрированных пользователей."
+              - list [ref=e425]:
+                - listitem [ref=e426]: Основные файлы cookie. Эти файлы cookie необходимы для использования Продуктов Meta и корректной работы наших сайтов.
+                - listitem [ref=e427]: Файлы cookie от других компаний. Мы используем эти файлы cookie, чтобы показывать вам рекламу вне Продуктов Meta и предоставлять такие функции, как карты и видео, в Продуктах Meta. Эти файлы cookie не обязательны.
+              - generic [ref=e430]:
+                - text: Вы можете контролировать, какие необязательные файлы cookie мы используем. Подробнее о том, что такое файлы cookie и как мы их используем, а также о том, как в любое время посмотреть и изменить настройки, вы можете узнать в нашей
+                - link "Политике в отношении файлов cookie" [ref=e431] [cursor=pointer]:
+                  - /url: /legal/cookies/
+                - text: .
+          - generic [ref=e433]: Информация о файлах cookie
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - img "cookie" [ref=e437]
+              - generic [ref=e440]: Что такое файлы cookie?
+              - button "Подробнее" [ref=e442] [cursor=pointer]
+            - generic [ref=e444]:
+              - img "щит" [ref=e446]
+              - generic [ref=e450]: Почему мы используем файлы cookie?
+              - button "Подробнее" [ref=e452] [cursor=pointer]
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - img "логотип Meta" [ref=e456]
+              - generic [ref=e459]: Что такое Продукты Meta?
+              - button "Подробнее" [ref=e461] [cursor=pointer]
+            - generic [ref=e463]:
+              - img "фильтр" [ref=e465]
+              - generic [ref=e468]: Ваши настройки файлов cookie
+              - button "Подробнее" [ref=e470] [cursor=pointer]
+          - generic [ref=e472]:
+            - generic [ref=e473]: Необязательные файлы cookie
+            - generic [ref=e474]:
+              - generic [ref=e475]:
+                - generic [ref=e477]: Файлы cookie других компаний
+                - generic [ref=e479]:
+                  - text: Мы используем файлы cookie от
+                  - link "других компаний" [ref=e480] [cursor=pointer]:
+                    - /url: https://privacycenter.instagram.com/policies/cookies/?annotations[0]=explanation%2F3_companies_list
+                  - text: ", чтобы показывать вам рекламу вне наших Продуктов и предоставлять такие функции, как карты, платежные сервисы и видео."
+              - switch "Файлы cookie других компаний" [ref=e483] [cursor=pointer]
+            - button "Выберите файлы cookie по категориям Значок шеврона" [ref=e485] [cursor=pointer]:
+              - generic [ref=e486]:
+                - heading "Выберите файлы cookie по категориям" [level=4] [ref=e488]
+                - img "Значок шеврона" [ref=e490]
+            - button "Как мы используем эти файлы cookie Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e493] [cursor=pointer]:
+              - generic [ref=e494]:
+                - heading "Как мы используем эти файлы cookie" [level=5] [ref=e496]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e498]
+            - button "Если вы разрешите использовать эти файлы cookie Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e501] [cursor=pointer]:
+              - generic [ref=e502]:
+                - heading "Если вы разрешите использовать эти файлы cookie" [level=5] [ref=e504]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e506]
+            - button "Если вы не разрешите использовать эти файлы cookie Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e509] [cursor=pointer]:
+              - generic [ref=e510]:
+                - heading "Если вы не разрешите использовать эти файлы cookie" [level=5] [ref=e512]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e514]
+          - generic [ref=e517]:
+            - generic [ref=e518]: Другие способы управления вашими данными
+            - button "Управляйте показом рекламы в Центре аккаунтов Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e520] [cursor=pointer]:
+              - generic [ref=e521]:
+                - heading "Управляйте показом рекламы в Центре аккаунтов" [level=5] [ref=e523]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e525]
+            - button "Подробнее об онлайн-рекламе Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e528] [cursor=pointer]:
+              - generic [ref=e529]:
+                - heading "Подробнее об онлайн-рекламе" [level=5] [ref=e531]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e533]
+            - button "Управление использованием файлов cookie c помощью настроек браузера Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e536] [cursor=pointer]:
+              - generic [ref=e537]:
+                - heading "Управление использованием файлов cookie c помощью настроек браузера" [level=5] [ref=e539]
+                - img "Значок шеврона для просмотра раздела согласия с Политикой в отношении файлов cookie" [ref=e541]
+      - button "Разрешить все cookie" [ref=e543] [cursor=pointer]
+      - button "Отклонить необязательные файлы cookie" [ref=e544] [cursor=pointer]
