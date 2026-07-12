@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]: Доставка по всему миру
+    - generic [ref=e7]: Эксклюзивные изделия японских дизайнеров
+    - generic [ref=e9]: Аутентифицированный архив
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Пьеррек ." [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Пьеррек
+        - generic [ref=e15]: .
+      - navigation [ref=e16]:
+        - link "Новинка" [ref=e17] [cursor=pointer]:
+          - /url: /#new-arrivals
+          - generic [ref=e18]: Новинка
+        - link "Бренды" [ref=e19] [cursor=pointer]:
+          - /url: /#brands
+          - generic [ref=e20]: Бренды
+        - link "О" [ref=e21] [cursor=pointer]:
+          - /url: /#about
+          - generic [ref=e22]: О
+      - generic [ref=e23]:
+        - link "Инстаграм" [ref=e24] [cursor=pointer]:
+          - /url: https://www.instagram.com/pierretheque/
+          - generic [ref=e25]: Инстаграм
+        - generic [ref=e27]: Войти
+        - generic [ref=e28]:
+          - generic [ref=e29]: Корзина (
+          - generic [ref=e30]: "0"
+          - generic [ref=e31]: )
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - paragraph [ref=e36]:
+          - generic [ref=e37]: Подборка из мирового архива
+        - heading "Архив японских дизайнеров ." [level=1] [ref=e38]:
+          - generic [ref=e39]: Архив японских
+          - generic [ref=e40]: дизайнеров
+          - generic [ref=e42]: .
+        - generic [ref=e44]:
+          - generic [ref=e46]: ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ
+          - generic [ref=e48]: ЛГБ
+          - generic [ref=e50]: ПРЕКРАСНОЕ:ЧУДОВИЩЕ
+        - paragraph [ref=e51]:
+          - generic [ref=e52]: Тщательно отобранные архивные вещи от самых востребованных андеграундных японских брендов — найденные, проверенные на подлинность и продаваемые поштучно.
+        - generic [ref=e53]:
+          - link "Новые поступления в магазине" [ref=e54] [cursor=pointer]:
+            - /url: "#new-arrivals"
+            - generic [ref=e55]: Новые поступления в магазине
+          - link "Просмотреть подборку ↗" [ref=e56] [cursor=pointer]:
+            - /url: https://www.instagram.com/vampyerre/
+            - generic [ref=e57]: Просмотреть подборку ↗
+      - generic [ref=e64]:
+        - paragraph [ref=e65]:
+          - generic [ref=e66]: Архивные кадры
+        - paragraph [ref=e67]:
+          - generic [ref=e68]: Цикл 01 / 01
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e73]: ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ
+        - generic [ref=e75]: ✦
+      - generic [ref=e76]:
+        - generic [ref=e78]: ЛГБ
+        - generic [ref=e80]: ✦
+      - generic [ref=e81]:
+        - generic [ref=e83]: ПРЕКРАСНОЕ:ЧУДОВИЩЕ
+        - generic [ref=e85]: ✦
+      - generic [ref=e86]:
+        - generic [ref=e88]: АРХИВНЫЙ ЯПОНСКИЙ ДИЗАЙНЕР
+        - generic [ref=e90]: ✦
+      - generic [ref=e91]:
+        - generic [ref=e93]: ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ
+        - generic [ref=e95]: ✦
+      - generic [ref=e96]:
+        - generic [ref=e98]: ЛГБ
+        - generic [ref=e100]: ✦
+      - generic [ref=e101]:
+        - generic [ref=e103]: ПРЕКРАСНОЕ:ЧУДОВИЩЕ
+        - generic [ref=e105]: ✦
+      - generic [ref=e106]:
+        - generic [ref=e108]: АРХИВНЫЙ ЯПОНСКИЙ ДИЗАЙНЕР
+        - generic [ref=e110]: ✦
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - paragraph [ref=e115]:
+            - generic [ref=e116]: По одному кусочку за раз
+          - heading "Новые поступления" [level=2] [ref=e117]:
+            - generic [ref=e118]: Новые поступления
+        - link "Посмотреть все ↗" [ref=e119] [cursor=pointer]:
+          - /url: https://www.instagram.com/pierretheque/
+          - generic [ref=e120]: Посмотреть все ↗
+      - generic [ref=e121]:
+        - link "ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬЮ — Mudmax Gypsy ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ Mudmax Gypsy Цена по запросу" [ref=e122] [cursor=pointer]:
+          - /url: /products/ifsixwasnine-mudmax-gypsy
+          - img "ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬЮ — Mudmax Gypsy" [ref=e124]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - paragraph [ref=e127]:
+                - generic [ref=e128]: ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ
+              - paragraph [ref=e129]:
+                - generic [ref=e130]: Mudmax Gypsy
+            - paragraph [ref=e131]:
+              - generic [ref=e132]: Цена по запросу
+        - generic [ref=e133]:
+          - paragraph [ref=e136]:
+            - generic [ref=e137]: ЛГБ
+          - generic [ref=e139]:
+            - paragraph [ref=e140]:
+              - generic [ref=e141]: Кожа и верхняя одежда
+            - paragraph [ref=e142]:
+              - generic [ref=e143]: Вскоре
+        - generic [ref=e144]:
+          - paragraph [ref=e147]:
+            - generic [ref=e148]: ПРЕКРАСНОЕ:ЧУДОВИЩЕ
+          - generic [ref=e150]:
+            - paragraph [ref=e151]:
+              - generic [ref=e152]: Трикотаж и пошив одежды
+            - paragraph [ref=e153]:
+              - generic [ref=e154]: Вскоре
+        - generic [ref=e155]:
+          - paragraph [ref=e158]:
+            - generic [ref=e159]: АРХИВ
+          - generic [ref=e161]:
+            - paragraph [ref=e162]:
+              - generic [ref=e163]: Новые работы еженедельно
+            - paragraph [ref=e164]:
+              - generic [ref=e165]: Вскоре
+    - generic [ref=e167]:
+      - paragraph [ref=e168]:
+        - generic [ref=e169]: Наши бренды
+      - heading "Бренды" [level=2] [ref=e170]:
+        - generic [ref=e171]: Бренды
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e175]: "0"
+            - generic [ref=e176]: "1"
+          - heading "ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ" [level=3] [ref=e177]:
+            - generic [ref=e178]: ЕСЛИ БЫ ШЕСТЬ БЫЛО ДЕВЯТЬ
+          - paragraph [ref=e179]:
+            - generic [ref=e180]: Джинсовая ткань, окрашенная в грязевых тонах, кожаные шнуровки и архивные силуэты с эффектом состаривания, выполненные вручную.
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: "0"
+            - generic [ref=e184]: "2"
+          - heading "ЛГБ" [level=3] [ref=e185]:
+            - generic [ref=e186]: ЛГБ
+          - paragraph [ref=e187]:
+            - generic [ref=e188]: Верхняя одежда из потертой кожи, созданная для необратимого, естественного износа.
+        - generic [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e191]: "0"
+            - generic [ref=e192]: "3"
+          - heading "ПРЕКРАСНОЕ:ЧУДОВИЩЕ" [level=3] [ref=e193]:
+            - generic [ref=e194]: ПРЕКРАСНОЕ:ЧУДОВИЩЕ
+          - paragraph [ref=e195]:
+            - generic [ref=e196]: Живописные ажурные и вязаные изделия из японского андеграунда.
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - paragraph [ref=e200]:
+          - generic [ref=e201]: Об архиве
+        - heading "Подборка, а не производство." [level=2] [ref=e202]:
+          - generic [ref=e203]: Подборка, а не производство.
+      - generic [ref=e204]:
+        - paragraph [ref=e205]:
+          - generic [ref=e206]: PIERRETÈQUE занимается поиском и проверкой подлинности архивных вещей самых востребованных японских андеграундных дизайнеров — IF SIX WAS NINE, LGB, BEAUTIFUL:BEAST и многих других. Ничего не воспроизводится. Каждая вещь уникальна, она найдена, проверена и продана только один раз.
+        - paragraph [ref=e207]:
+          - generic [ref=e208]:
+            - text: Куратором проекта является
+            - link "@vampyerre" [ref=e209] [cursor=pointer]:
+              - /url: https://www.instagram.com/vampyerre/
+            - text: . Следите за полным архивом, как только он появится, на странице
+            - link "@pierretheque" [ref=e210] [cursor=pointer]:
+              - /url: https://www.instagram.com/pierretheque/
+            - text: .
+          - link:
+            - /url: https://www.instagram.com/vampyerre/
+          - link:
+            - /url: https://www.instagram.com/pierretheque/
+  - contentinfo [ref=e211]:
+    - generic [ref=e212]:
+      - generic [ref=e215]:
+        - paragraph [ref=e216]:
+          - generic [ref=e217]: Доставка по всему миру
+        - paragraph [ref=e218]:
+          - generic [ref=e219]: Отслеживаемый и застрахованный экспорт
+      - generic [ref=e222]:
+        - paragraph [ref=e223]:
+          - generic [ref=e224]: Аутентифицированный архив
+        - paragraph [ref=e225]:
+          - generic [ref=e226]: Каждый товар проверяется перед размещением объявления.
+      - generic [ref=e229]:
+        - paragraph [ref=e230]:
+          - generic [ref=e231]: Безопасная оплата
+        - paragraph [ref=e232]:
+          - generic [ref=e233]: Зашифрованная оплата
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - paragraph [ref=e236]:
+          - generic [ref=e237]: Пьеррек
+          - generic [ref=e239]: .
+        - paragraph [ref=e240]:
+          - generic [ref=e241]: Архив японской дизайнерской одежды, отобранной и продаваемой поштучно.
+      - generic [ref=e242]:
+        - paragraph [ref=e243]:
+          - generic [ref=e244]: Магазин
+        - list [ref=e245]:
+          - listitem [ref=e246]:
+            - link "Новинка" [ref=e247] [cursor=pointer]:
+              - /url: /#new-arrivals
+              - generic [ref=e248]: Новинка
+          - listitem [ref=e249]:
+            - link "Бренды" [ref=e250] [cursor=pointer]:
+              - /url: /#brands
+              - generic [ref=e251]: Бренды
+      - generic [ref=e252]:
+        - paragraph [ref=e253]:
+          - generic [ref=e254]: Информация
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "О" [ref=e257] [cursor=pointer]:
+              - /url: /#about
+              - generic [ref=e258]: О
+          - listitem [ref=e259]:
+            - generic [ref=e261]: Доставка и возврат
+          - listitem [ref=e262]:
+            - generic [ref=e264]: Подлинность
+      - generic [ref=e265]:
+        - paragraph [ref=e266]:
+          - generic [ref=e267]: Следовать
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - link "@pierretheque" [ref=e270] [cursor=pointer]:
+              - /url: https://www.instagram.com/pierretheque/
+              - generic [ref=e271]: "@pierretheque"
+          - listitem [ref=e272]:
+            - link "@vampyerre — кураторство" [ref=e273] [cursor=pointer]:
+              - /url: https://www.instagram.com/vampyerre/
+              - generic [ref=e274]: "@vampyerre — кураторство"
+    - generic [ref=e275]:
+      - generic [ref=e276]: ©
+      - generic [ref=e277]: "2026"
+      - generic [ref=e278]: Pierrètèque. Все права защищены.
+  - alert [ref=e279]

@@ -1,0 +1,132 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Worldwide Shipping
+    - generic [ref=e5]: Exclusive Japanese Designer Pieces
+    - generic [ref=e6]: Authenticated Archive
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "PIERRETÈQUE." [ref=e9] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e10]:
+        - link "New In" [ref=e11] [cursor=pointer]:
+          - /url: /#new-arrivals
+        - link "Brands" [ref=e12] [cursor=pointer]:
+          - /url: /#brands
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e14]:
+        - link "Instagram" [ref=e15] [cursor=pointer]:
+          - /url: https://www.instagram.com/pierretheque/
+        - generic [ref=e16]: Sign In
+        - generic [ref=e17]: Cart (1)
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - link "Home" [ref=e20] [cursor=pointer]:
+        - /url: /
+      - text: /
+      - link "New Arrivals" [ref=e21] [cursor=pointer]:
+        - /url: /#new-arrivals
+      - text: /IF SIX WAS NINE
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - img "IF SIX WAS NINE — Mudmax Gypsy" [ref=e25]
+        - generic [ref=e26]:
+          - button [ref=e27]
+          - button [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: IF SIX WAS NINE
+          - heading "Mudmax Gypsy" [level=1] [ref=e32]
+          - paragraph [ref=e33]: Price on request
+        - generic [ref=e34]:
+          - generic [ref=e35]: Size 28
+          - generic [ref=e36]: Archive — Pre-Owned
+          - generic [ref=e37]: Origin — Japan
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: A one-of-one piece from IF SIX WAS NINE's mud-dyed “Gypsy” denim line — the label's signature hand-distressed silhouette, worked over with earth pigment, splatter patina and reinforced tear repairs until no two pairs read the same.
+          - paragraph [ref=e40]: The waist closes with a corset-style leather lace instead of a standard fly, cinching the hip and giving the cut its unmistakable, body-conscious drape. Below the knee, the original denim is cut away and replaced with a bonded black leather flare panel, raw-edged at the hem.
+          - paragraph [ref=e41]: Sourced directly from the archive, authenticated, and photographed unworn since acquisition. Sold as seen — the wear is the piece.
+        - button "Added ✓" [active] [ref=e144]
+        - group [ref=e43]:
+          - generic "Details" [ref=e44] [cursor=pointer]
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - term [ref=e47]: Label
+              - definition [ref=e48]: IF SIX WAS NINE
+            - generic [ref=e49]:
+              - term [ref=e50]: Fabric
+              - definition [ref=e51]: Cotton denim, bonded leather panel, leather lace
+            - generic [ref=e52]:
+              - term [ref=e53]: Construction
+              - definition [ref=e54]: Hand-distressed, mud-dye patina, corset lacing
+            - generic [ref=e55]:
+              - term [ref=e56]: Care
+              - definition [ref=e57]: Specialist dry clean only — do not machine wash
+            - generic [ref=e58]:
+              - term [ref=e59]: Authenticity
+              - definition [ref=e60]: Verified archive piece, sold directly by PIERRETÈQUE
+        - group [ref=e61]:
+          - generic "Shipping & Authenticity" [ref=e62] [cursor=pointer]
+    - generic [ref=e64]:
+      - heading "More From The Archive" [level=2] [ref=e65]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - paragraph [ref=e70]: L.G.B.
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Leather & Outerwear
+            - paragraph [ref=e74]: Coming Soon
+        - generic [ref=e75]:
+          - paragraph [ref=e78]: BEAUTIFUL:BEAST
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Knitwear & Cutsew
+            - paragraph [ref=e82]: Coming Soon
+        - generic [ref=e83]:
+          - paragraph [ref=e86]: ARCHIVE
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: New Pieces Weekly
+            - paragraph [ref=e90]: Coming Soon
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e95]:
+        - paragraph [ref=e96]: Worldwide Shipping
+        - paragraph [ref=e97]: Tracked & insured export
+      - generic [ref=e100]:
+        - paragraph [ref=e101]: Authenticated Archive
+        - paragraph [ref=e102]: Every piece verified before listing
+      - generic [ref=e105]:
+        - paragraph [ref=e106]: Secure Payment
+        - paragraph [ref=e107]: Encrypted checkout
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - paragraph [ref=e110]: PIERRETÈQUE.
+        - paragraph [ref=e111]: Archive Japanese designer wear, curated and sold one piece at a time.
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: Shop
+        - list [ref=e114]:
+          - listitem [ref=e115]:
+            - link "New In" [ref=e116] [cursor=pointer]:
+              - /url: /#new-arrivals
+          - listitem [ref=e117]:
+            - link "Brands" [ref=e118] [cursor=pointer]:
+              - /url: /#brands
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: Info
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link "About" [ref=e123] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e124]: Shipping & Returns
+          - listitem [ref=e125]: Authenticity
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Follow
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "@pierretheque" [ref=e130] [cursor=pointer]:
+              - /url: https://www.instagram.com/pierretheque/
+          - listitem [ref=e131]:
+            - link "@vampyerre — curation" [ref=e132] [cursor=pointer]:
+              - /url: https://www.instagram.com/vampyerre/
+    - generic [ref=e133]: © 2026 Pierrètèque. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=e139] [cursor=pointer]:
+    - img [ref=e140]
+  - alert [ref=e143]

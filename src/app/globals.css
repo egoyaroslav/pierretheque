@@ -1,26 +1,115 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: #131210;
+  --color-paper: #f2f0eb;
+  --color-paper-soft: #e9e7e0;
+  --color-white: #ffffff;
+  --color-charcoal: #1b1a17;
+  --color-charcoal-soft: #26241f;
+  --color-muted: #78766d;
+  --color-line: #dad7cd;
+  --color-line-dark: rgba(255, 255, 255, 0.14);
+  --font-display: var(--font-display-src);
+  --font-sans: var(--font-sans-src);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  color-scheme: light;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tracked {
+  letter-spacing: 0.18em;
+}
+
+.tracked-tight {
+  letter-spacing: 0.06em;
+}
+
+/* Film-grain overlay used on the hero video and other dark panels */
+.grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  animation: grain-shift 0.7s steps(4) infinite;
+}
+
+@keyframes grain-shift {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-3%, 2%);
+  }
+  50% {
+    transform: translate(2%, -3%);
+  }
+  75% {
+    transform: translate(-2%, -2%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Infinite brand marquee */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Diagonal hairline pattern for "coming soon" placeholder cards */
+.hairline-pattern {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--color-line) 0px,
+    var(--color-line) 1px,
+    transparent 1px,
+    transparent 14px
+  );
+}
+
+.hairline-pattern-dark {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--color-line-dark) 0px,
+    var(--color-line-dark) 1px,
+    transparent 1px,
+    transparent 14px
+  );
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
 }
