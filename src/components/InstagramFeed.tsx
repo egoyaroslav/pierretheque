@@ -66,7 +66,7 @@ export function InstagramFeed() {
               alt=""
               fill
               sizes="(min-width: 640px) 16vw, 33vw"
-              className="object-cover grayscale contrast-[1.1] scale-[1.03] transition-[filter,transform] duration-700 group-hover:grayscale-0 group-hover:scale-[1.08]"
+              className="object-cover scale-[1.03] transition-transform duration-700 group-hover:scale-[1.08]"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/20 transition-colors">
               <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white text-[10px] tracked uppercase">

@@ -9,7 +9,7 @@ export function Hero() {
         <div className="absolute inset-0 lg:relative lg:order-2">
           <div className="absolute inset-0 lg:[mask-image:linear-gradient(to_right,transparent,black_14%)] lg:[-webkit-mask-image:linear-gradient(to_right,transparent,black_14%)]">
             <video
-              className="h-full w-full object-cover grayscale contrast-[1.05] brightness-[0.95] saturate-0"
+              className="h-full w-full object-cover grayscale-[0.6] contrast-[1.05] brightness-[0.95] saturate-[1.1]"
               src="/video/hero.mp4"
               autoPlay
               loop

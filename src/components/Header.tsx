@@ -15,7 +15,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-paper/95 backdrop-blur border-b border-line">
+    <header className="sticky top-0 z-40 bg-paper border-b border-line">
       <div className="mx-auto max-w-[1600px] px-4 sm:px-8 h-16 sm:h-20 flex items-center justify-between gap-6">
         <button
           type="button"
