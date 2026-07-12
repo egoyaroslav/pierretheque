@@ -11,7 +11,7 @@ export function ProductCard({ product }: { product: Product }) {
           alt={`${product.brand} — ${product.name}`}
           fill
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-          className="object-cover grayscale-[0.15] contrast-[1.05] transition-opacity duration-500 group-hover:opacity-0"
+          className="object-cover scale-[1.02] transition-[opacity,transform] duration-700 ease-out group-hover:opacity-0 group-hover:scale-[1.06]"
           priority
         />
         {product.images[1] && (
@@ -20,7 +20,7 @@ export function ProductCard({ product }: { product: Product }) {
             alt=""
             fill
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-            className="object-cover grayscale-[0.15] contrast-[1.05] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+            className="object-cover opacity-0 scale-[1.02] transition-[opacity,transform] duration-700 ease-out group-hover:opacity-100 group-hover:scale-[1.06]"
           />
         )}
       </div>

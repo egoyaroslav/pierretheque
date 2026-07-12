@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-ink: #131210;
-  --color-paper: #f2f0eb;
-  --color-paper-soft: #e9e7e0;
+  --color-ink: #eeece5;
+  --color-paper: #0e0d0c;
+  --color-paper-soft: #181613;
   --color-white: #ffffff;
-  --color-charcoal: #1b1a17;
-  --color-charcoal-soft: #26241f;
-  --color-muted: #78766d;
-  --color-line: #dad7cd;
-  --color-line-dark: rgba(255, 255, 255, 0.14);
+  --color-charcoal: #060605;
+  --color-charcoal-soft: #101008;
+  --color-muted: #8a8579;
+  --color-line: rgba(255, 255, 255, 0.11);
+  --color-line-dark: rgba(255, 255, 255, 0.06);
   --font-display: var(--font-display-src);
   --font-sans: var(--font-sans-src);
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 * {
@@ -27,9 +27,65 @@ html {
 }
 
 body {
+  position: relative;
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
+}
+
+/* Sitewide film-grain + vignette so the whole page reads as one atmosphere, not flat panels */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 59;
+  pointer-events: none;
+  background: radial-gradient(
+    130% 90% at 50% 0%,
+    transparent 45%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+/* Slow-drifting ambient shimmer — sits above every section (via mix-blend)
+   so the whole page breathes instead of reading as flat black panels. */
+.ambient-glow {
+  position: fixed;
+  inset: -20%;
+  z-index: 58;
+  pointer-events: none;
+  opacity: 0.7;
+  filter: blur(90px);
+  mix-blend-mode: soft-light;
+  background:
+    radial-gradient(30% 30% at 20% 25%, rgba(255, 255, 255, 0.55), transparent 70%),
+    radial-gradient(26% 26% at 80% 62%, rgba(196, 202, 218, 0.4), transparent 70%),
+    radial-gradient(24% 24% at 55% 88%, rgba(214, 198, 176, 0.35), transparent 70%);
+  animation: ambient-drift 26s ease-in-out infinite alternate;
+}
+
+@keyframes ambient-drift {
+  0% {
+    transform: translate3d(-4%, -3%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4%, 3%, 0) scale(1.12);
+  }
+  100% {
+    transform: translate3d(-2%, 4%, 0) scale(1.05);
+  }
 }
 
 .font-display {
@@ -70,6 +126,21 @@ body {
   100% {
     transform: translate(0, 0);
   }
+}
+
+/* Analog scanline texture — used on hero footage for an archival, filmic feel */
+.scanlines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05) 0px,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
 }
 
 /* Infinite brand marquee */

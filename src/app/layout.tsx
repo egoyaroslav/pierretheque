@@ -39,6 +39,7 @@ export default function RootLayout({
       className={`${displayFont.variable} ${sansFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
+        <div aria-hidden className="ambient-glow" />
         <CartProvider>
           <AnnouncementBar />
           <Header />

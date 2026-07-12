@@ -9,7 +9,7 @@ export function PlaceholderCard({
     <div className="block cursor-default">
       <div className="relative aspect-[4/5] overflow-hidden bg-paper-soft hairline-pattern flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-t from-paper via-transparent to-transparent" />
-        <p className="font-display text-3xl sm:text-4xl text-ink/25 text-center px-6 leading-tight">
+        <p className="font-display text-3xl sm:text-4xl text-ink/35 text-center px-6 leading-tight">
           {brand}
         </p>
       </div>
