@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-ink: #eeece5;
-  --color-paper: #0e0d0c;
-  --color-paper-soft: #181613;
+  --color-ink: #eaeaea;
+  --color-paper: #0d0d0d;
+  --color-paper-soft: #161616;
   --color-white: #ffffff;
-  --color-charcoal: #060605;
-  --color-charcoal-soft: #101008;
-  --color-muted: #8a8579;
+  --color-charcoal: #060606;
+  --color-charcoal-soft: #0d0d0d;
+  --color-muted: #838383;
   --color-line: rgba(255, 255, 255, 0.11);
   --color-line-dark: rgba(255, 255, 255, 0.06);
   --font-display: var(--font-display-src);
@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -33,12 +34,14 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Sitewide film-grain + vignette so the whole page reads as one atmosphere, not flat panels */
+/* Sitewide film-grain so the whole page reads as one atmosphere, not flat
+   panels. Kept behind the sticky header (z-index below Header's z-40) so it
+   never tints the nav bar. */
 body::before {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 60;
+  z-index: 2;
   pointer-events: none;
   opacity: 0.035;
   mix-blend-mode: overlay;
@@ -46,50 +49,61 @@ body::before {
   background-size: 180px 180px;
 }
 
+/* Top vignette, sized in viewport units (not document %) and anchored to
+   the document top via `absolute` (not `fixed`) so it darkens only the
+   hero/header area once, near y=0, and fully fades back to transparent
+   before the ellipse's outer edge — it must NOT end on an opaque color,
+   otherwise the browser fills the entire remaining box with that color,
+   which is what previously darkened everything below the fold. */
 body::after {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 59;
+  z-index: 1;
   pointer-events: none;
   background: radial-gradient(
-    130% 60% at 50% 0%,
+    130% 70vh at 50% 0%,
     transparent 45%,
-    rgba(0, 0, 0, 0.55) 100%
+    rgba(0, 0, 0, 0.45) 75%,
+    transparent 100%
   );
 }
 
-/* Slow-drifting smoke/fog — sits above every section (via mix-blend) so the
-   page breathes instead of reading as flat black panels. No filter:blur()
-   here on purpose: fixed + blur + blend-mode together is what caused the
-   "glass pane" seam artifacts on iOS Safari while scrolling. The softness
-   comes purely from wide radial-gradient falloff instead. */
+/* Slow-drifting smoke/fog. Mounted *inside* individual content sections
+   (see AmbientGlow component) rather than sitewide, so it sits behind that
+   section's own text/photos (negative z-index within the section's own
+   stacking context) and can never wash over images, the header, or the
+   footer. Each host section is `relative overflow-hidden`, which also
+   contains the scale/translate animation so it can't bleed into page
+   scroll. No filter:blur() here on purpose: fixed + blur + blend-mode
+   together is what caused the "glass pane" seam artifacts on iOS Safari
+   while scrolling. The softness comes purely from wide radial-gradient
+   falloff instead. */
 .ambient-glow {
   position: absolute;
   inset: 0;
-  min-height: 100%;
-  z-index: 58;
+  z-index: -1;
   pointer-events: none;
-  opacity: 0.8;
+  opacity: 1;
   mix-blend-mode: soft-light;
   background:
-    radial-gradient(45% 35% at 18% 20%, rgba(255, 255, 255, 0.4), transparent 72%),
-    radial-gradient(40% 32% at 82% 55%, rgba(198, 204, 218, 0.32), transparent 72%),
-    radial-gradient(38% 30% at 45% 85%, rgba(216, 200, 178, 0.28), transparent 72%),
-    radial-gradient(30% 24% at 60% 15%, rgba(255, 255, 255, 0.22), transparent 75%);
+    radial-gradient(48% 38% at 18% 20%, rgba(255, 255, 255, 0.55), transparent 72%),
+    radial-gradient(42% 34% at 82% 55%, rgba(220, 220, 220, 0.48), transparent 72%),
+    radial-gradient(40% 32% at 45% 85%, rgba(210, 210, 210, 0.4), transparent 72%),
+    radial-gradient(32% 26% at 60% 15%, rgba(255, 255, 255, 0.38), transparent 75%);
   background-repeat: no-repeat;
   animation: ambient-drift 34s ease-in-out infinite alternate;
 }
 
 @keyframes ambient-drift {
   0% {
-    transform: translate3d(-5%, -3%, 0) scale(1.15);
+    transform: translate3d(-3%, -2%, 0) scale(1.08);
   }
   50% {
-    transform: translate3d(5%, 4%, 0) scale(1.3);
+    transform: translate3d(3%, 2%, 0) scale(1.14);
   }
   100% {
-    transform: translate3d(-3%, 5%, 0) scale(1.2);
+    transform: translate3d(-2%, 3%, 0) scale(1.1);
   }
 }
 

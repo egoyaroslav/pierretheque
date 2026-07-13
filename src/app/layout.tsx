@@ -20,7 +20,7 @@ const sansFont = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "PIERRETÈQUE — Archive Japanese Designer Wear",
+  title: "PIERRETHEQUE — Archive Japanese Designer Wear",
   description:
     "Curated archive Japanese designer wear — IF SIX WAS NINE, L.G.B., BEAUTIFUL:BEAST and more. Authenticated pieces, sold one at a time.",
   other: {
@@ -39,7 +39,6 @@ export default function RootLayout({
       className={`${displayFont.variable} ${sansFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
-        <div aria-hidden className="ambient-glow" />
         <CartProvider>
           <AnnouncementBar />
           <Header />

@@ -6,7 +6,7 @@ export type InstagramPost = {
 export const instagramFeeds = {
   shop: {
     handle: "pierretheque",
-    label: "Pierrètèque",
+    label: "Pierretheque",
     role: "The Shop",
     profileUrl: "https://www.instagram.com/pierretheque/",
     posts: [

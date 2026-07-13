@@ -34,7 +34,7 @@ export const products: Product[] = [
       { label: "Fabric", value: "Cotton denim, bonded leather panel, leather lace" },
       { label: "Construction", value: "Hand-distressed, mud-dye patina, corset lacing" },
       { label: "Care", value: "Specialist dry clean only — do not machine wash" },
-      { label: "Authenticity", value: "Verified archive piece, sold directly by PIERRETÈQUE" },
+      { label: "Authenticity", value: "Verified archive piece, sold directly by PIERRETHEQUE" },
     ],
   },
 ];
@@ -54,7 +54,7 @@ export const comingSoon = [
   },
   {
     brand: "ARCHIVE",
-    label: "New Pieces Weekly",
+    label: "Accessories",
   },
 ];
 

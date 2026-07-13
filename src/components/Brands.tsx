@@ -1,3 +1,5 @@
+import { AmbientGlow } from "@/components/AmbientGlow";
+
 const BRANDS = [
   {
     name: "IF SIX WAS NINE",
@@ -15,7 +17,11 @@ const BRANDS = [
 
 export function Brands() {
   return (
-    <section id="brands" className="scroll-mt-20 bg-charcoal text-white">
+    <section
+      id="brands"
+      className="relative overflow-hidden scroll-mt-20 bg-charcoal text-white"
+    >
+      <AmbientGlow />
       <div className="mx-auto max-w-[1600px] px-4 sm:px-8 py-16 sm:py-24">
         <p className="text-[11px] tracked uppercase text-white/45 mb-2">
           Labels We Carry

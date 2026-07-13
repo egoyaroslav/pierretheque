@@ -40,7 +40,7 @@ export function Header() {
           href="/"
           className="font-display text-xl sm:text-2xl tracking-[0.08em]"
         >
-          PIERRETÈQUE<span className="text-muted">.</span>
+          PIERRETHEQUE<span className="text-muted">.</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-[11px] tracked uppercase">

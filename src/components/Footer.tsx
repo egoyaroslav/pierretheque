@@ -35,7 +35,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1600px] px-4 sm:px-8 py-14 grid grid-cols-2 sm:grid-cols-4 gap-10">
         <div className="col-span-2 sm:col-span-1">
           <p className="font-display text-2xl tracking-[0.08em] text-white">
-            PIERRETÈQUE<span className="text-white/40">.</span>
+            PIERRETHEQUE<span className="text-white/40">.</span>
           </p>
           <p className="text-xs text-white/45 mt-4 leading-relaxed max-w-[24ch]">
             Archive Japanese designer wear, curated and sold one piece at a
@@ -102,7 +102,7 @@ export function Footer() {
                 rel="noreferrer"
                 className="hover:text-white"
               >
-                @vampyerre — curation
+                @vampyerre — founder
               </a>
             </li>
           </ul>
@@ -110,7 +110,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto max-w-[1600px] px-4 sm:px-8 py-6 border-t border-line-dark text-[10px] tracked uppercase text-white/35">
-        © {new Date().getFullYear()} Pierrètèque. All rights reserved.
+        © {new Date().getFullYear()} Pierretheque. All rights reserved.
       </div>
     </footer>
   );

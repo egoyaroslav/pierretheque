@@ -31,7 +31,7 @@ export function Hero() {
         {/* Copy layer — overlaid on the video on mobile, left panel on desktop */}
         <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col gap-4 px-5 pb-10 pt-24 sm:px-8 lg:static lg:order-1 lg:h-full lg:justify-between lg:gap-6 lg:px-16 lg:py-16 lg:bg-gradient-to-t lg:from-transparent lg:to-transparent bg-gradient-to-t from-black/85 via-black/35 to-transparent">
           <p className="font-display text-lg tracking-[0.1em] lg:hidden">
-            Pierrètèque
+            Pierretheque
           </p>
 
           <p className="hidden lg:block text-[11px] tracked uppercase text-white/45">
@@ -74,7 +74,7 @@ export function Hero() {
                 rel="noreferrer"
                 className="hidden lg:inline-flex items-center justify-center px-2 py-4 text-[11px] tracked uppercase text-white/60 hover:text-white transition-colors"
               >
-                View Curation ↗
+                View Founder ↗
               </a>
             </div>
           </div>

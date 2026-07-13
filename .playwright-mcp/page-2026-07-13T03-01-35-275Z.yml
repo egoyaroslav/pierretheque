@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Worldwide Shipping
+    - generic [ref=e5]: Exclusive Japanese Designer Pieces
+    - generic [ref=e6]: Authenticated Archive
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "PIERRETÈQUE." [ref=e9] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e10]:
+        - link "New In" [ref=e11] [cursor=pointer]:
+          - /url: /#new-arrivals
+        - link "Brands" [ref=e12] [cursor=pointer]:
+          - /url: /#brands
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e14]:
+        - link "Instagram" [ref=e15] [cursor=pointer]:
+          - /url: https://www.instagram.com/pierretheque/
+        - generic [ref=e16]: Sign In
+        - generic [ref=e17]: Cart (0)
+  - main [ref=e18]:
+    - generic [ref=e27]:
+      - paragraph [ref=e28]: Worldwide Archive Selection
+      - heading "Japanese Designer Archive." [level=1] [ref=e29]:
+        - text: Japanese
+        - text: Designer
+        - text: Archive.
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: IF SIX WAS NINE
+          - generic [ref=e34]: L.G.B.
+          - generic [ref=e35]: BEAUTIFUL:BEAST
+        - paragraph [ref=e36]: Hand-selected archive pieces from Japan's most coveted underground labels — sourced, authenticated and sold one piece at a time.
+        - generic [ref=e37]:
+          - link "Shop New Arrivals" [ref=e38] [cursor=pointer]:
+            - /url: "#new-arrivals"
+          - link "View Curation ↗" [ref=e39] [cursor=pointer]:
+            - /url: https://www.instagram.com/vampyerre/
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: IF SIX WAS NINE
+        - generic [ref=e44]: ✦
+      - generic [ref=e45]:
+        - generic [ref=e46]: L.G.B.
+        - generic [ref=e47]: ✦
+      - generic [ref=e48]:
+        - generic [ref=e49]: BEAUTIFUL:BEAST
+        - generic [ref=e50]: ✦
+      - generic [ref=e51]:
+        - generic [ref=e52]: ARCHIVE JAPANESE DESIGNER
+        - generic [ref=e53]: ✦
+      - generic [ref=e54]:
+        - generic [ref=e55]: IF SIX WAS NINE
+        - generic [ref=e56]: ✦
+      - generic [ref=e57]:
+        - generic [ref=e58]: L.G.B.
+        - generic [ref=e59]: ✦
+      - generic [ref=e60]:
+        - generic [ref=e61]: BEAUTIFUL:BEAST
+        - generic [ref=e62]: ✦
+      - generic [ref=e63]:
+        - generic [ref=e64]: ARCHIVE JAPANESE DESIGNER
+        - generic [ref=e65]: ✦
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: One Piece At A Time
+          - heading "New Arrivals" [level=2] [ref=e71]
+        - link "View All ↗" [ref=e72] [cursor=pointer]:
+          - /url: https://www.instagram.com/pierretheque/
+      - generic [ref=e73]:
+        - link "IF SIX WAS NINE — Mudmax Gypsy IF SIX WAS NINE Mudmax Gypsy Price on request" [ref=e74] [cursor=pointer]:
+          - /url: /products/ifsixwasnine-mudmax-gypsy
+          - img "IF SIX WAS NINE — Mudmax Gypsy" [ref=e76]
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - paragraph [ref=e79]: IF SIX WAS NINE
+              - paragraph [ref=e80]: Mudmax Gypsy
+            - paragraph [ref=e81]: Price on request
+        - generic [ref=e82]:
+          - paragraph [ref=e85]: L.G.B.
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: Leather & Outerwear
+            - paragraph [ref=e89]: Coming Soon
+        - generic [ref=e90]:
+          - paragraph [ref=e93]: BEAUTIFUL:BEAST
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Knitwear & Cutsew
+            - paragraph [ref=e97]: Coming Soon
+        - generic [ref=e98]:
+          - paragraph [ref=e101]: ARCHIVE
+          - generic [ref=e103]:
+            - paragraph [ref=e104]: New Pieces Weekly
+            - paragraph [ref=e105]: Coming Soon
+    - generic [ref=e107]:
+      - paragraph [ref=e108]: Labels We Carry
+      - heading "The Brands" [level=2] [ref=e109]
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: "01"
+          - heading "IF SIX WAS NINE" [level=3] [ref=e113]
+          - paragraph [ref=e114]: Mud-dyed denim, leather lacing and hand-distressed archive silhouettes.
+        - generic [ref=e115]:
+          - generic [ref=e116]: "02"
+          - heading "L.G.B." [level=3] [ref=e117]
+          - paragraph [ref=e118]: Worn-leather outerwear built for permanent, honest decay.
+        - generic [ref=e119]:
+          - generic [ref=e120]: "03"
+          - heading "BEAUTIFUL:BEAST" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Painterly cutsew and knitwear from Japan's underground.
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - paragraph [ref=e126]: About The Archive
+          - heading "Curated, not manufactured." [level=2] [ref=e127]
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: PIERRÈTHÈQUE sources and authenticates archive pieces from Japan's most coveted underground designers — IF SIX WAS NINE, L.G.B., BEAUTIFUL:BEAST and beyond. Nothing is reproduced. Every piece is a one-off, hunted down, verified and sold once.
+          - paragraph [ref=e130]: Two feeds, one obsession — the shop's drops and the founder's own wardrobe. Follow either below.
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - button "The Shop" [ref=e134]
+          - button "Founder & Curator" [ref=e135]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: Pierrètèque
+            - paragraph [ref=e139]: "@pierretheque"
+          - link "Follow ↗" [ref=e140] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/
+        - generic [ref=e141]:
+          - link "View ↗" [ref=e142] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/reel/DXZNvM3CAKq/
+            - generic [ref=e144]: View ↗
+          - link "View ↗" [ref=e145] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/reel/DXPtj5giLiT/
+            - generic [ref=e147]: View ↗
+          - link "View ↗" [ref=e148] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/reel/DWywCvXiOXV/
+            - generic [ref=e150]: View ↗
+          - link "View ↗" [ref=e151] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/p/DZuceNyCKR2/
+            - generic [ref=e153]: View ↗
+          - link "View ↗" [ref=e154] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/p/DZaFka8iBnq/
+            - generic [ref=e156]: View ↗
+          - link "View ↗" [ref=e157] [cursor=pointer]:
+            - /url: https://www.instagram.com/pierretheque/p/DZaDvOgCO1Q/
+            - generic [ref=e159]: View ↗
+  - contentinfo [ref=e160]:
+    - generic [ref=e161]:
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: Worldwide Shipping
+        - paragraph [ref=e166]: Tracked & insured export
+      - generic [ref=e169]:
+        - paragraph [ref=e170]: Authenticated Archive
+        - paragraph [ref=e171]: Every piece verified before listing
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: Secure Payment
+        - paragraph [ref=e176]: Encrypted checkout
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - paragraph [ref=e179]: PIERRETÈQUE.
+        - paragraph [ref=e180]: Archive Japanese designer wear, curated and sold one piece at a time.
+      - generic [ref=e181]:
+        - paragraph [ref=e182]: Shop
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "New In" [ref=e185] [cursor=pointer]:
+              - /url: /#new-arrivals
+          - listitem [ref=e186]:
+            - link "Brands" [ref=e187] [cursor=pointer]:
+              - /url: /#brands
+      - generic [ref=e188]:
+        - paragraph [ref=e189]: Info
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "About" [ref=e192] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e193]: Shipping & Returns
+          - listitem [ref=e194]: Authenticity
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: Follow
+        - list [ref=e197]:
+          - listitem [ref=e198]:
+            - link "@pierretheque" [ref=e199] [cursor=pointer]:
+              - /url: https://www.instagram.com/pierretheque/
+          - listitem [ref=e200]:
+            - link "@vampyerre — curation" [ref=e201] [cursor=pointer]:
+              - /url: https://www.instagram.com/vampyerre/
+    - generic [ref=e202]: © 2026 Pierrètèque. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=e208] [cursor=pointer]:
+    - generic [ref=e211]:
+      - text: Compiling
+      - generic [ref=e212]:
+        - generic [ref=e213]: .
+        - generic [ref=e214]: .
+        - generic [ref=e215]: .
+  - alert [ref=e216]

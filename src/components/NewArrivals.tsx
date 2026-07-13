@@ -1,10 +1,12 @@
 import { products, comingSoon } from "@/lib/products";
 import { ProductCard } from "@/components/ProductCard";
 import { PlaceholderCard } from "@/components/PlaceholderCard";
+import { AmbientGlow } from "@/components/AmbientGlow";
 
 export function NewArrivals() {
   return (
-    <section id="new-arrivals" className="scroll-mt-20">
+    <section id="new-arrivals" className="relative overflow-hidden scroll-mt-20">
+      <AmbientGlow />
       <div className="mx-auto max-w-[1600px] px-4 sm:px-8 py-16 sm:py-24">
         <div className="flex items-end justify-between mb-10 sm:mb-14">
           <div>
