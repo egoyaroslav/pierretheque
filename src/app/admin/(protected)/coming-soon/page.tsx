@@ -21,10 +21,10 @@ export default async function AdminComingSoonPage() {
               <input name="brand" defaultValue={item.brand} className="border border-line bg-transparent px-3 py-2 text-sm flex-1" />
               <input name="label" defaultValue={item.label} className="border border-line bg-transparent px-3 py-2 text-sm flex-1" />
               <input name="position" type="number" defaultValue={item.position} className="border border-line bg-transparent px-3 py-2 text-sm w-16" />
-              <button type="submit" className="text-[11px] tracked uppercase text-muted hover:text-ink">
+              <button type="submit" className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors">
                 Save
               </button>
-              <button formAction={deleteComingSoonAction.bind(null, item.id)} className="text-[11px] tracked uppercase text-muted hover:text-ink">
+              <button formAction={deleteComingSoonAction.bind(null, item.id)} className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors">
                 Delete
               </button>
             </form>

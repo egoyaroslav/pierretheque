@@ -31,16 +31,16 @@ export default async function AdminProductsPage() {
           </thead>
           <tbody>
             {products.map((product) => (
-              <tr key={product.id} className="border-b border-line-dark">
+              <tr key={product.id} className="border-b border-line-dark hover:bg-paper-soft transition-colors">
                 <td className="py-3">{product.brand}</td>
                 <td className="py-3">{product.name}</td>
                 <td className="py-3 text-muted">{product.slug}</td>
                 <td className="py-3 flex gap-4 justify-end">
-                  <Link href={`/admin/products/${product.id}/edit`} className="text-muted hover:text-ink">
+                  <Link href={`/admin/products/${product.id}/edit`} className="text-muted hover:text-ink transition-colors">
                     Edit
                   </Link>
                   <form action={deleteProductAction.bind(null, product.id)}>
-                    <button className="text-muted hover:text-ink">Delete</button>
+                    <button className="text-muted hover:text-ink transition-colors">Delete</button>
                   </form>
                 </td>
               </tr>

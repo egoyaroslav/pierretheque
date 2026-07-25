@@ -17,7 +17,11 @@ export default function LoginPage() {
           required
           className="border border-line bg-transparent px-3 py-2 text-sm"
         />
-        {state?.error && <p className="text-sm text-red-400">{state.error}</p>}
+        {state?.error && (
+          <p className="text-sm text-ink border-l-2 border-ink pl-3">
+            {state.error}
+          </p>
+        )}
         <button
           type="submit"
           disabled={pending}

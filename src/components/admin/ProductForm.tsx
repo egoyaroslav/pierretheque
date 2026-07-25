@@ -62,7 +62,7 @@ export function ProductForm({
             className="border border-line bg-transparent px-3 py-2 text-sm"
           />
         ))}
-        <button type="button" onClick={() => setDescription([...description, ""])} className="text-[11px] tracked uppercase text-muted hover:text-ink self-start">
+        <button type="button" onClick={() => setDescription([...description, ""])} className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors self-start">
           + Add Paragraph
         </button>
       </fieldset>
@@ -95,7 +95,7 @@ export function ProductForm({
             />
           </div>
         ))}
-        <button type="button" onClick={() => setDetails([...details, { label: "", value: "" }])} className="text-[11px] tracked uppercase text-muted hover:text-ink self-start">
+        <button type="button" onClick={() => setDetails([...details, { label: "", value: "" }])} className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors self-start">
           + Add Detail
         </button>
       </fieldset>

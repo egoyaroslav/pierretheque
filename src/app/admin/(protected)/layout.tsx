@@ -10,12 +10,12 @@ export default function AdminProtectedLayout({
     <div className="min-h-screen bg-paper text-ink">
       <header className="border-b border-line px-6 py-4 flex items-center justify-between">
         <nav className="flex gap-6 text-[11px] tracked uppercase text-muted">
-          <Link href="/admin/products" className="hover:text-ink">Products</Link>
-          <Link href="/admin/brands" className="hover:text-ink">Brands</Link>
-          <Link href="/admin/coming-soon" className="hover:text-ink">Coming Soon</Link>
+          <Link href="/admin/products" className="hover:text-ink transition-colors">Products</Link>
+          <Link href="/admin/brands" className="hover:text-ink transition-colors">Brands</Link>
+          <Link href="/admin/coming-soon" className="hover:text-ink transition-colors">Coming Soon</Link>
         </nav>
         <form action={logout}>
-          <button className="text-[11px] tracked uppercase text-muted hover:text-ink">
+          <button className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors">
             Log Out
           </button>
         </form>

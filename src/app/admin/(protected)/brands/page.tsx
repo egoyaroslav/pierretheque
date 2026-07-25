@@ -22,10 +22,10 @@ export default async function AdminBrandsPage() {
               <textarea name="note" defaultValue={brand.note ?? ""} className="border border-line bg-transparent px-3 py-2 text-sm" />
               <div className="flex items-center gap-3">
                 <input name="position" type="number" defaultValue={brand.position} className="border border-line bg-transparent px-3 py-2 text-sm w-20" />
-                <button type="submit" className="text-[11px] tracked uppercase text-muted hover:text-ink">
+                <button type="submit" className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors">
                   Save
                 </button>
-                <button formAction={deleteBrandAction.bind(null, brand.id)} className="text-[11px] tracked uppercase text-muted hover:text-ink">
+                <button formAction={deleteBrandAction.bind(null, brand.id)} className="text-[11px] tracked uppercase text-muted hover:text-ink transition-colors">
                   Delete
                 </button>
               </div>

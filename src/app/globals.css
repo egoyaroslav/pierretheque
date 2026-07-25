@@ -203,3 +203,16 @@ body::after {
   background: var(--color-ink);
   color: var(--color-paper);
 }
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-ink);
+}
