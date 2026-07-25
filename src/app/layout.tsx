@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Inter } from "next/font/google";
 import "./globals.css";
-import { CartProvider } from "@/lib/cart-context";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { AnnouncementBar } from "@/components/AnnouncementBar";
 
 const displayFont = Instrument_Serif({
   variable: "--font-display-src",
@@ -39,12 +35,7 @@ export default function RootLayout({
       className={`${displayFont.variable} ${sansFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
-        <CartProvider>
-          <AnnouncementBar />
-          <Header />
-          {children}
-          <Footer />
-        </CartProvider>
+        {children}
       </body>
     </html>
   );
