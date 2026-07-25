@@ -1,21 +1,9 @@
 import { AmbientGlow } from "@/components/AmbientGlow";
+import { getBrands } from "@/lib/data/brands";
 
-const BRANDS = [
-  {
-    name: "IF SIX WAS NINE",
-    note: "Mud-dyed denim, leather lacing and hand-distressed archive silhouettes.",
-  },
-  {
-    name: "L.G.B.",
-    note: "Worn-leather outerwear built for permanent, honest decay.",
-  },
-  {
-    name: "BEAUTIFUL:BEAST",
-    note: "Painterly cutsew and knitwear from Japan's underground.",
-  },
-];
+export async function Brands() {
+  const brands = await getBrands();
 
-export function Brands() {
   return (
     <section
       id="brands"
@@ -31,9 +19,9 @@ export function Brands() {
         </h2>
 
         <div className="grid sm:grid-cols-3 gap-10 sm:gap-8">
-          {BRANDS.map((brand, i) => (
+          {brands.map((brand, i) => (
             <div
-              key={brand.name}
+              key={brand.id}
               className="border-t border-line-dark pt-6 flex flex-col gap-3"
             >
               <span className="text-[10px] tracked text-white/35">

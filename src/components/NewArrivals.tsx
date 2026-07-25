@@ -1,9 +1,12 @@
-import { products, comingSoon } from "@/lib/products";
+import { getProducts } from "@/lib/data/products";
+import { getComingSoon } from "@/lib/data/coming-soon";
 import { ProductCard } from "@/components/ProductCard";
 import { PlaceholderCard } from "@/components/PlaceholderCard";
 import { AmbientGlow } from "@/components/AmbientGlow";
 
-export function NewArrivals() {
+export async function NewArrivals() {
+  const [products, comingSoon] = await Promise.all([getProducts(), getComingSoon()]);
+
   return (
     <section id="new-arrivals" className="relative overflow-hidden scroll-mt-20">
       <AmbientGlow />
@@ -32,11 +35,7 @@ export function NewArrivals() {
             <ProductCard key={product.slug} product={product} />
           ))}
           {comingSoon.map((item) => (
-            <PlaceholderCard
-              key={item.brand}
-              brand={item.brand}
-              label={item.label}
-            />
+            <PlaceholderCard key={item.id} brand={item.brand} label={item.label} />
           ))}
         </div>
       </div>

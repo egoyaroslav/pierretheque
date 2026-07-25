@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getProduct, products, comingSoon } from "@/lib/products";
+import { getProduct, getProducts } from "@/lib/data/products";
+import { getComingSoon } from "@/lib/data/coming-soon";
 import { ProductGallery } from "@/components/ProductGallery";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { PlaceholderCard } from "@/components/PlaceholderCard";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const products = await getProducts();
   return products.map((p) => ({ slug: p.slug }));
 }
 
@@ -15,8 +17,9 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
   if (!product) notFound();
+  const comingSoon = await getComingSoon();
 
   return (
     <main className="flex-1">
@@ -101,7 +104,7 @@ export default async function ProductPage({
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 sm:gap-x-6">
             {comingSoon.map((item) => (
               <PlaceholderCard
-                key={item.brand}
+                key={item.id}
                 brand={item.brand}
                 label={item.label}
               />

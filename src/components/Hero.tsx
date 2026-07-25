@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { brands } from "@/lib/products";
+import { getBrands } from "@/lib/data/brands";
 
-export function Hero() {
+export async function Hero() {
+  const brands = await getBrands();
   return (
     <section className="relative overflow-hidden bg-charcoal text-white">
       <div className="relative h-[100svh] lg:h-auto lg:min-h-[720px] lg:grid lg:grid-cols-2">
@@ -51,7 +52,7 @@ export function Hero() {
 
             <div className="hidden lg:flex flex-wrap gap-x-6 gap-y-2 text-[11px] tracked uppercase text-white/70">
               {brands.map((b) => (
-                <span key={b}>{b}</span>
+                <span key={b.id}>{b.name}</span>
               ))}
             </div>
 
