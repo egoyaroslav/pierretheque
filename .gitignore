@@ -36,6 +36,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local dev database (libSQL file)
+*.db
+*.db-journal
+
+# locally uploaded product images (fallback storage before Vercel Blob is connected)
+/public/uploads
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
